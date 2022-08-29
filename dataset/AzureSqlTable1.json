@@ -5,6 +5,12 @@
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Employee_city": {
+				"type": "string",
+				"defaultValue": "Jaipur"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
